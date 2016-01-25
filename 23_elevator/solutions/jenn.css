@@ -1,0 +1,35 @@
+.outer-container {
+  display:flex;
+  flex-direction: column;
+  height:800px;
+  width: 500px;
+  background-color: #D5BEA6;
+}
+
+.inner-container {
+  height: 90%;
+  width: 85%;
+  align-self: center;
+  margin: auto;
+  background-color: #AD2E25;
+  display:flex;
+}
+
+.button-container {
+  height: 80%;
+  width: 60%;
+  display:flex;
+  align-self: center;
+  margin:auto;
+  flex-direction: row;
+  justify-content: center
+}
+
+.button {
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  background-color: black;
+  align-items: center;
+  margin: auto;
+}
