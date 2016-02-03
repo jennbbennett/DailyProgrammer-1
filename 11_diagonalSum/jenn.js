@@ -18,3 +18,6 @@ console.log(diagonalSum([[1, 0, 0, 0],
 
 [0, 0, 0, 1]]
 ));
+
+
+// could use map or reduce as well

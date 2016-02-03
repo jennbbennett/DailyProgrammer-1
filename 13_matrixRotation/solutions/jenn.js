@@ -23,7 +23,9 @@ function rotateMatrix(array){
     for(i = array.length-1; i >=0; i++){
       for(j = 0; j < array[i].length; j++){
           if (i == array.length-1){
-            newArray.push9i
+            newArray.push[i][j];
+          } else{
+            
           }
           }
 }
