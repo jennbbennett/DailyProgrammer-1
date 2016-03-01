@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 var expect = require('chai').expect;
 var fuzzySearch = require('../solutions/me');
 
 var names = ["mike","fred", "rob", "dave", "jack", "marry", "mark", "jim", "jill", "june", "jess", "grey", "greg", "mark", "jenn", "richard", "robert"];
+=======
+var expect = require('chai').expect
+var fuzzySearch = require('../solutions/bda')
+>>>>>>> c825930a994dbae012187333a0dad665feb79c1a
 
 
 describe("fuzzy-search", function() {
@@ -26,7 +31,7 @@ describe("fuzzy-search", function() {
 		});
 	});
 	describe("remove duplicates", function() {
-		xit("should remove duplicates from the result list", function() {
+		it("should remove duplicates from the result list", function() {
 			var result = fuzzySearch('mark', names);
 			expect(result).to.deep.equal(['mark']);
 		});
